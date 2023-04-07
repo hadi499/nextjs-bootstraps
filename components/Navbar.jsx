@@ -1,8 +1,8 @@
 const Navbar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg bg-light"
-      style={{ background: "#ffafcc!important" }}
+      className="navbar navbar-expand-lg bg-light fixed-top"
+      style={{ background: "#90e0ef!important" }}
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="#">

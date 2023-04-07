@@ -12,7 +12,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Card />
+      <h2
+        className="text-center "
+        style={{ color: "#023e8a", marginTop: "80px" }}
+      >
+        My Galery
+      </h2>
+      <div className="d-flex flex-wrap gap-3 justify-content-center mb-5 px-3">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </>
   );
 }
